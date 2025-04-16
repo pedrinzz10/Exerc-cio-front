@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+#topo{
+    background: linear-gradient(to right, #00204a, #005792, #00bbf0, #fdb44b);
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+#topo h1{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff9900;
+    padding: 20px 0;
+}
+
+#topo nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+#topo nav ul li:hover{
+    background-color: #ffffff;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+.nav-link{
+    display: inline-block;
+    color-text: #ffffff;
+}
+
+section{
+    margin: 20px;
+    padding: 20px;
+    background-color: hsl(172, 78%, 69%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #c7280c;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff9100;
+    margin-bottom: 20px;
+    
+}
+
+section p{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    margin-bottom:5px;
+}
+
+section ul{
+    list-style: none;
+    padding: 0;
+}
+
+section li{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .foto {
+    flex: 1 1 200px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    display: block;
+  }
+
+  .foto:hover img {
+    transform: scale(1.1); /* efeito zoom */
+  }
+
+  .foto:hover {
+    transform: translateY(-5px); /* levanta levemente */
+  }
